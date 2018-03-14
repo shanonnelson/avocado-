@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+
+/* cream colored background filling in all blank space on the webpage */
+html{
+    background-color: #F8F2D2;
+}
+
+/* makes text on navbar go right */
+.navigation ul{
+  padding: 0px 10px;
+  text-align: right;
+}
+
+/* styles the text in navbar */
+nav.navigation {
+  background-color: #FE926B;
+  padding: 5px;
+  font-family: Papyrus, fantasy;
+	font-size: 20px;
+}
+
+/* placement of text in navbar */
+.navigation ul li {
+  display: inline-block;
+  margin: -7px 38px;
+  padding: 5px;
+}
+
+/* colors text and remove underline */
+li a {
+color: #F8FDE5;
+ text-decoration: none;
+}
+
+/* positions the searchbar */
+div.search {
+  text-align: right;
+  margin: 0px;
+}
+
+/* positions the avocado logo in the navbar */
+  h1 {
+    position: absolute;
+    top: -6px;
+    left: 50px;
+  }
+
+/* Styles the serachbar */
+input {
+  border-style:solid;
+  border-width:2px;
+  border-color: #F3EFED;
+  font-size: 1.7em;
+  box-shadow: 3px 7px 1px #BCBABE;
+  width:20%;
+  margin: 1%;
+  margin-right: 45px;
+  padding: 10px;
+}
+
+/*   styles my search bar */
+input::placeholder {
+   color: #C4C4C4;
+   background-color: white;
+   font-family: "Century Gothic", sans-serif;
+}
+
+/* positions the magnifying glass in the searchbar */
+.magnifyingglass {
+  position: absolute;
+  top: 110px;
+  right: 10px;
+  margin-right: 60px;
+}
+
+/* positions and styles paragraph on the right side of page */
+h2 {
+  display: inline-block;
+  margin-left: 50%;
+  font-size: 50px;
+  font-family: Papyrus, fantasy;
+  color: #7EB06E;
+  background-color: #F8F2D2;
+}
+
+/* positions large avocado image */
+ .avocado {
+  position: absolute;
+  padding: 40px;
+  margin-right: 50%;
+  top: 120px;
+  left: 30px;
+  margin-left: 50px;
+  }
+
+ /* both of the buttons */
+#buttons {
+  display: inline-block;
+  margin-left: 50%;
+  font-size: 30px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 20px;
+}
+
+/* green button */
+.green {
+  background-color: #89B993;
+  text-decoration: none;
+  padding: 25px 80px;
+  margin: 15px;
+  color: #F8F2D2;
+}
+
+/* orange button */
+.orange {
+   background-color: #FE926B;
+    text-decoration: none;
+    padding: 25px 45px;
+    margin: 20px;
+    color: #F8F2D2;
+}
+
+ /* greenfooter */
+#footer {
+  background-color: #89B993;
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:80px;   /* Height of the footer */
+}
+
+/* positions social media footer */
+.socialmediafooter {
+  width:100%;
+  position:fixed;
+  bottom:20px;
+  text-align:center;
+  z-index:9999;
+  }
